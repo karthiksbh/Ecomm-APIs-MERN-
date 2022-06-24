@@ -1,0 +1,28 @@
+npm init -y 
+
+npm i express mongoose dotenv nodemon
+
+Change start to nodemon index.js in package.json
+
+Start server: npm start
+
+For mongoDB: cloud.mongodb.com and create cluster and user
+then mongoose.connect()
+
+.dotenv is used to store the secret keys so that if we use github then no one cant access the URL and change DB
+
+Create .env file with MONGO_URL
+
+Routes: 
+Then create routes and make sure you have express.json for the post request
+
+
+Models: Create js file for each Model
+
+async await for each function
+We used crypto JS to encrypt the passwords
+npm in crypto-js
+
+
+JWT Authentication: For login
+npm i jsonwebtoken
